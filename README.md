@@ -1,6 +1,39 @@
 # API de Marvel en Spring Boot
 
-Este proyecto implementa una API en Java utilizando el framework Spring Boot para consumir la API pública de Marvel, que proporciona información sobre personajes, historietas y series.
+Este proyecto implementa una API en Java utilizando el framework Spring Boot con una arquitectura de software MVC para consumir la API pública de Marvel, que proporciona información sobre personajes, historietas y series.
+
+# Dependecias
+## 1. spring-boot-starter-data-jpa
+Esta dependencia proporciona soporte para el acceso a bases de datos relacionales a través de JPA (Java Persistence API). Incluye configuraciones predefinidas para Hibernate, un framework de mapeo objeto-relacional (ORM) muy utilizado en el ecosistema de Spring Boot.
+
+## 2. spring-boot-starter-web
+Esta dependencia agrega las bibliotecas necesarias para desarrollar aplicaciones web con Spring Boot. Incluye el contenedor web embebido de Spring Boot y las dependencias necesarias para desarrollar aplicaciones web RESTful.
+
+## 3. spring-boot-devtools
+Esta dependencia proporciona herramientas de desarrollo adicionales para mejorar la experiencia de desarrollo en Spring Boot. Incluye funcionalidades como la recarga automática (live reload) de la aplicación cuando hay cambios en el código fuente, entre otras herramientas útiles para el desarrollo.
+
+## 4. mysql-connector-j
+Esta dependencia es el controlador JDBC para MySQL. Permite a la aplicación comunicarse con una base de datos MySQL utilizando el protocolo JDBC estándar de Java.
+
+## 5. lombok
+Lombok es una biblioteca que permite reducir la cantidad de código boilerplate en Java. Proporciona anotaciones que generan automáticamente getters, setters, constructores, y otros métodos comunes en clases Java, lo que simplifica el desarrollo y reduce la cantidad de código que necesitas escribir manualmente.
+
+## 6. spring-boot-starter-test
+Esta dependencia agrega las bibliotecas necesarias para escribir pruebas unitarias y de integración en aplicaciones Spring Boot. Incluye frameworks como JUnit, Mockito y Spring Test para facilitar la escritura y ejecución de pruebas.
+
+## 7. spring-boot-starter-security
+Esta dependencia agrega soporte para la seguridad en aplicaciones Spring Boot. Incluye funcionalidades como autenticación, autorización y manejo de sesiones, lo que permite proteger los endpoints de la API y controlar el acceso a recursos protegidos.
+
+## 8. jjwt-api
+Esta dependencia proporciona la API para trabajar con JWT (JSON Web Tokens). JWT es un estándar abierto (RFC 7519) que define un método compacto y seguro para la transmisión de información entre partes como un objeto JSON. Es ampliamente utilizado para la autenticación y autorización en aplicaciones web y APIs RESTful.
+
+## 9. jjwt-impl
+Esta dependencia proporciona la implementación de JWT para la generación y verificación de tokens JWT. Es una parte fundamental para trabajar con JWT en aplicaciones Spring Boot.
+
+## 9. jjwt-jackson
+Esta dependencia agrega soporte para serializar y deserializar objetos JWT utilizando la biblioteca Jackson, que es la biblioteca de serialización y deserialización JSON predeterminada en Spring Boot.
+
+> Estas dependencias son esenciales para desarrollar una aplicación Spring Boot que utilice una base de datos MySQL, implemente seguridad con JWT y Spring Security, y realice pruebas unitarias y de integración.
 
 # Pasos instalación
 Para poder construir y ejecutar la aplicación, sigue estos pasos.
