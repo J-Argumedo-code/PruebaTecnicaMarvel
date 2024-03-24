@@ -6,7 +6,7 @@ Este proyecto implementa una API en Java utilizando el framework Spring Boot par
 Para poder construir y ejecutar la aplicación, sigue estos pasos.
 
 ## Clonar el repositorio
-	git clone https://github.com/tu_usuario/tu_repositorio.git
+	git clone https://github.com/J-Argumedo-code/PruebaTecnicaMarvel.git
 
 ## Abrir el proyecto
 Abre el proyecto en tu IDE favorito (por ejemplo, IntelliJ IDEA o Eclipse).
@@ -32,7 +32,8 @@ CREATE TABLE history (
     action varchar(200) NOT NULL
 );
 
-INSERT INTO user (name, email, password) VALUES ('admin', 'admin@gmail.com', 'Tu contraseña encriptada con BCrypt');
+INSERT INTO user (name, email, password)
+VALUES ('admin', 'admin@gmail.com', 'Contraseña encriptada con BCrypt');
 ```
 > La aplicación contiene un método para encriptar una contraseña localmente, ubicado en la clase com.marvel.security.WebSecurityConfig.java;
 
@@ -64,7 +65,7 @@ Para poder consumir los EndPoints se debe realizar un proceso de Login, para obt
 
     {
         "email": "admin@gmail.com",
-        "password": "admin"
+        "password": "admin" //Ejemplo de contraseña, no debe estar encriptada
     }
 > Deben ser las credenciales de un usario que exista en la base de datos
 
