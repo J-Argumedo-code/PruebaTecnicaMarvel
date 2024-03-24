@@ -5,13 +5,13 @@ Este proyecto implementa una API en Java utilizando el framework Spring Boot par
 # Pasos instalación
 Para poder construir y ejecutar la aplicación, sigue estos pasos.
 
-## Clonar el repositorio
+## 1. Clonar el repositorio
 	git clone https://github.com/J-Argumedo-code/PruebaTecnicaMarvel.git
 
-## Abrir el proyecto
+## 2. Abrir el proyecto
 Abre el proyecto en tu IDE favorito (por ejemplo, IntelliJ IDEA o Eclipse).
 
-## Crear la base de datos
+## 3. Crear la base de datos
 La base de datos de este proyecto ha sido desarrollada en MySql.
 > Se debe hacer al menos el insert de un usuario para realizar el Login en la aplicación.
 
@@ -39,7 +39,7 @@ VALUES ('admin', 'admin@gmail.com', 'Contraseña encriptada con BCrypt');
 
 
 
-## Configurar las credenciales de acceso
+## 4. Configurar las credenciales de acceso
 
 Configura las credenciales de acceso a la API de Marvel en el archivo `application.properties`
 
@@ -49,7 +49,7 @@ Configura las credenciales de acceso a la API de Marvel en el archivo `applicati
 
 > Para más información sobre como formar el código hash, revisar Documentación de Api de Marvel en: https://developer.marvel.com/documentation/authorization
 
-## Ejecuta la aplicación
+## 5. Ejecutar la aplicación
 
 Ejecuta la aplicación de Spring Boot localmente con el método main en `PruebaTecnicaApplication.java`
 
