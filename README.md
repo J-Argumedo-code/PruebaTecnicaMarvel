@@ -2,10 +2,6 @@
 
 Este proyecto implementa una API en Java utilizando el framework Spring Boot para consumir la API pública de Marvel, que proporciona información sobre personajes, historietas y series.
 
-**Tabla de contenidos**
-
-[TOC]
-
 # Pasos instalación
 Para poder construir y ejecutar la aplicación, sigue estos pasos.
 
