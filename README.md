@@ -4,9 +4,9 @@ Este proyecto implementa una API en Java utilizando el framework Spring Boot par
 
 **Tabla de contenidos**
 
-[TOCM]
+[TOC]
 
-#Pasos instalación
+# Pasos instalación
 Para poder construir y ejecutar la aplicación, sigue estos pasos.
 
 ## Clonar el repositorio
