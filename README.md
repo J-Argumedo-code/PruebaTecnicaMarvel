@@ -49,9 +49,9 @@ Configura las credenciales de acceso a la API de Marvel en el archivo `applicati
 
 > Para más información sobre como formar el código hash, revisar Documentación de Api de Marvel en: https://developer.marvel.com/documentation/authorization
 
-## Ejecutar la aplicación:
+## Ejecuta la aplicación
 
-Ejecuta la aplicación Spring Boot localmente con el método main en `PruebaTecnicaApplication.java`
+Ejecuta la aplicación de Spring Boot localmente con el método main en `PruebaTecnicaApplication.java`
 
 ## EndPoints
 Una vez que la aplicación esté en funcionamiento, puedes interactuar con los distintos endpoints utilizando un cliente HTTP o una herramienta como Postman. 
@@ -59,7 +59,7 @@ Una vez que la aplicación esté en funcionamiento, puedes interactuar con los d
 ### Login
 Para poder consumir los EndPoints se debe realizar un proceso de Login, para obtener un token de autorización.
 
-####Request body
+#### Request body
 
 `POST /login`
 
